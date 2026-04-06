@@ -89,13 +89,14 @@ export class BatlinkSession {
     await this.sendPayloadToOwner(payload, 'message_delivered', timing);
   }
 
-  async sendImageToOwner({ imageData, mime, width, height }, timing = null) {
+  async sendImageToOwner({ imageData, mime, width, height }, source = null, timing = null) {
     const payload = encodeImagePayload({
       imageData,
       mime,
       width,
       height,
-      senderEncPubkey: encodeBase64Url(this.publicParts.encPublicKey)
+      senderEncPubkey: encodeBase64Url(this.publicParts.encPublicKey),
+      source
     });
     await this.sendPayloadToOwner(payload, 'message_delivered', timing);
   }
@@ -112,12 +113,13 @@ export class BatlinkSession {
     await this.sendPayloadToOwner(payload, 'message_delivered', timing);
   }
 
-  async sendSiteToOwner({ title, url, iconUrl = null }, timing = null) {
+  async sendSiteToOwner({ title, url, iconUrl = null }, source = null, timing = null) {
     const payload = encodeSitePayload({
       title,
       url,
       iconUrl,
-      senderEncPubkey: encodeBase64Url(this.publicParts.encPublicKey)
+      senderEncPubkey: encodeBase64Url(this.publicParts.encPublicKey),
+      source
     });
     await this.sendPayloadToOwner(payload, 'message_delivered', timing);
   }

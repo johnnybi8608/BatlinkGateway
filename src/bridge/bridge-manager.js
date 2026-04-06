@@ -115,7 +115,7 @@ export class BridgeManager {
         mime: payload.mime,
         width: payload.width,
         height: payload.height
-      }, { createdAt: baseCreatedAt });
+      }, this.buildSource(binding), { createdAt: baseCreatedAt });
       let captionSendPromise = Promise.resolve();
       if (translatedCaption) {
         captionSendPromise = session.sendTextToOwner(
@@ -192,7 +192,7 @@ export class BridgeManager {
         title: titleBase,
         url: mapUrl,
         iconUrl: null
-      });
+      }, this.buildSource(binding));
       console.log(`[BAG] forwarded WA->Batlink location waJid=${waJid} lat=${lat} lng=${lng} live=${Boolean(payload.isLive)}`);
       return;
     }

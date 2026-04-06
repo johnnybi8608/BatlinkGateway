@@ -8,6 +8,10 @@ function unwrapMessage(message) {
   let current = message;
   for (;;) {
     if (!current || typeof current !== 'object') return current;
+    if (current.associatedChildMessage?.message) {
+      current = current.associatedChildMessage.message;
+      continue;
+    }
     if (current.ephemeralMessage?.message) {
       current = current.ephemeralMessage.message;
       continue;

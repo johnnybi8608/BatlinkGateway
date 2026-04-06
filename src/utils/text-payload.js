@@ -19,7 +19,8 @@ export function encodeImagePayload({
   mime,
   width,
   height,
-  senderEncPubkey
+  senderEncPubkey,
+  source = null
 }) {
   return JSON.stringify({
     v: 2,
@@ -30,6 +31,7 @@ export function encodeImagePayload({
     imageHeight: height,
     imageBytes: imageData.length,
     senderEncPubkey,
+    source,
     hasPeerWalletCard: null,
     walletCard: null
   });
@@ -64,7 +66,8 @@ export function encodeSitePayload({
   title,
   url,
   iconUrl = null,
-  senderEncPubkey
+  senderEncPubkey,
+  source = null
 }) {
   return JSON.stringify({
     v: 2,
@@ -73,6 +76,7 @@ export function encodeSitePayload({
     siteUrl: url,
     siteIconUrl: iconUrl,
     senderEncPubkey,
+    source,
     hasPeerWalletCard: null,
     walletCard: null
   });
