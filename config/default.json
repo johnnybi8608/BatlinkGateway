@@ -1,0 +1,23 @@
+{
+  "http": {
+    "host": "127.0.0.1",
+    "port": 9097
+  },
+  "batlink": {
+    "nodeBaseUrl": "https://am-standard-node-01.ocsdk.com",
+    "wsPath": "/v1/ws",
+    "messageTtlSeconds": 2678400,
+    "ownerPublicKey": "windra_pk_v2_-vfyrqSJ_azlyGJ8rEmvIFpXgYElxL52Z-5PLRiLNFpUA5mRYuIUf8sLc37zPK7q23E_a3BIBt2AlPjMZSFGZA_eof0qH"
+  },
+  "whatsapp": {
+    "sessionPath": "./data/wa-auth"
+  },
+  "storage": {
+    "bindingsFile": "./data/wa-bindings.json"
+  },
+  "openai": {
+    "apiKey": "",
+    "baseUrl": "https://api.openai.com/v1",
+    "model": "gpt-5-mini"
+  }
+}

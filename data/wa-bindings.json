@@ -1,0 +1,50 @@
+[
+  {
+    "waJid": "213559313187022@lid",
+    "pushName": "Sunny",
+    "fullName": "Sunny",
+    "bridgePrivateKey": "windra_sk_v2_cGgjkSpcFZkjZnb8fJB63XEFSP5v2p8i1qcV13ZizLGIRTNYgyRED0ZOU-gV-CtQmZvIB3MM-PCvX9pDPEoSYQ_I3pbj9",
+    "bridgePublicKey": "windra_pk_v2_GRzPaVlgSm0WRL9pwB43_cpXpuU9ffvcxZ-HIrJNU_UPMVriqiJEsKMzVuHhCAed1sGWRJgLyvP2JddLH26wAg_eC8AJ_",
+    "createdAt": 1775400144,
+    "updatedAt": 1775481130,
+    "introSent": false,
+    "headPhotoUrl": "https://pps.whatsapp.net/v/t61.24694-24/626839930_1673517860283694_5499369838415231894_n.jpg?ccb=11-4&oh=01_Q5Aa4QEs4ma8n3E8XRv9ZcvodUSgUIylv3Z38aD9QS_aUlpBXQ&oe=69E0A9A9&_nc_sid=5e03e0&_nc_cat=100",
+    "translation": {
+      "enabled": false,
+      "peerLanguage": "en",
+      "myLanguage": "zh-Hans"
+    }
+  },
+  {
+    "waJid": "139144558866531@lid",
+    "pushName": "Han",
+    "fullName": "Han",
+    "bridgePrivateKey": "windra_sk_v2_pP5-UbpIdkavSnVRfm1wSpgk9Mo8H786DQsxBlMh9XpAO7EPuhm5ldbdpYJkQCe26f_Hofrzc120AJbTSU2XVQ_tZiQ8_",
+    "bridgePublicKey": "windra_pk_v2_BW3suwV4uw0QJYPVZEwimulPiTGLrV2zJp1uzPv1JRJYOLRa8P8JznOO6WjWYvJCUWMpb4LuvgmMXtHsDHWSOg_5S6w4v",
+    "createdAt": 1775403760,
+    "updatedAt": 1775478733,
+    "introSent": false,
+    "headPhotoUrl": "https://pps.whatsapp.net/v/t61.24694-24/654195304_1428689791694027_7768414825208174521_n.jpg?ccb=11-4&oh=01_Q5Aa4QG-s0NiE36tpe6qqai5fvwhdt8DnCP-BY59aKBHrIsIBw&oe=69E0C956&_nc_sid=5e03e0&_nc_cat=104",
+    "translation": {
+      "enabled": false,
+      "peerLanguage": "ja",
+      "myLanguage": "zh-Hans"
+    }
+  },
+  {
+    "waJid": "106983826923592@lid",
+    "pushName": "aleixojjr",
+    "fullName": "aleixojjr",
+    "headPhotoUrl": "https://pps.whatsapp.net/v/t61.24694-24/384787846_1126958638455322_109378548693006765_n.jpg?ccb=11-4&oh=01_Q5Aa4QH-RsP4of-59CMxLF4Eo1YEqDv-5YHnVsZZ4IqQ_jK_Gw&oe=69E0A575&_nc_sid=5e03e0&_nc_cat=103",
+    "bridgePrivateKey": "windra_sk_v2_b5Or4Y3ryRDs_pe8uWF0sSIVCN9zbBpNd3Pml-R4GVbYnWl_wZayzTTVbc3VbLLR_2fhsuEuF2cqSOnT5Z72dQ_o6eAA9",
+    "bridgePublicKey": "windra_pk_v2_BLAsM4bwiJKHYlAwtes88N-zKulXU62hi5sGsx7Z0wtnJzVj0xcJ0RjCJLJIw-fmvu3vkl5u84TaQqiI1pdxLg_BOd3cX",
+    "createdAt": 1775417820,
+    "updatedAt": 1775476365,
+    "introSent": false,
+    "translation": {
+      "enabled": true,
+      "peerLanguage": "pt",
+      "myLanguage": "zh-Hans"
+    }
+  }
+]
